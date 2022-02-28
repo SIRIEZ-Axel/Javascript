@@ -3,11 +3,16 @@
 
 
 (() => {
-
     document.getElementById("run").addEventListener("click", () => {
+        var arr =[]
+        for (var i = 1; i <= 21; i++){
+            var result = 0;
+            var n = i;
 
-        // your code here
-
+            result = n * n;
+            arr[i] = result;
+        }
+        alert(arr)
     });
 
 })();
