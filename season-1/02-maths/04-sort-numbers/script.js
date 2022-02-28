@@ -5,8 +5,13 @@
     // to get the value of an input: document.getElementById("element-id").value
 
     document.getElementById("run").addEventListener("click", () => {
+    var num = document.getElementById("numbers")
+    var arr = [];
 
-        // your code here
+    for (var i = 0; i < arr.length; i++){
+        arr[i] = num;
+        alert(arr.lenght)
+    }
 
     });
 
