@@ -7,5 +7,12 @@
   console.log('Hello Keller programmer');
 
   // YOUR CODE HERE
+  let cake = prompt("do u want some cake? y/n");
+  if (cake == "y"){
+    window.alert("Congrate! :D")
+  } else if(cake == "n"){
+      window.alert("More cake for me then")
+    } else
+    window.alert("Please make a choice");
 })();
 

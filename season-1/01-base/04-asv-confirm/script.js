@@ -7,4 +7,14 @@
     console.log('Hello Keller programmer');
 
     // YOUR CODE HERE
+    let age = prompt("give me your age");
+    let gender = prompt("what is your gender?");
+    let city = prompt("where do u live?");
+
+    while (confirm(age + " / " + gender + " / " + city + " / " + "Is it right?") == false){
+            age = prompt("give me your age");
+            gender = prompt("what is your gender?");
+            city = prompt("where do u live?");
+        }
+    window.alert("congrate!");
 })();
