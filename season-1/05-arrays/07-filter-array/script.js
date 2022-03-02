@@ -80,6 +80,11 @@
         },
     ];
 
-    // your code here
+    var btn = document.getElementById("run");
+    btn.addEventListener("click", () => {
+
+        var newArr = people.filter(item => item.age > 18)
+        console.log(newArr)
+    })
 
 })();
