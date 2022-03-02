@@ -17,6 +17,11 @@
         "cherry",
     ];
 
-    // your code here
+
+    if (fruits.includes("apple")) {
+        console.log(fruits, "There is an apple in the array");
+    }else{
+        console.log("There is no apple")
+    }
 
 })();
