@@ -14,7 +14,14 @@
         "raisin",
         "cerise",
     ];
+    
+    fruits.splice(0, 1, 'banana');
+    
+    fruits.splice(9, 1, 'kiwi');
 
-    // your code here
+    var btn = document.getElementById("run");
+    btn.addEventListener("click", () => {
+        console.log(fruits);
+    });
 
 })();
