@@ -80,6 +80,12 @@
         },
     ];
 
-    // your code here
+
+    people.forEach(item => {
+        if (item.firstname == "Jean" && item.lastname == "Dupont") {
+            console.log(item.email);
+            console.log(people.indexOf(item))
+        }
+    })
 
 })();
