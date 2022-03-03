@@ -8,5 +8,10 @@
             this.age = age;
         }
     }
-    // your code here
+    
+    const cat1 = new Cat("Skitty", "9 years")
+    const cat2 = new Cat("Pixel", "6 years")
+    console.log(cat1)
+    console.log(cat2)
+    
 })();
