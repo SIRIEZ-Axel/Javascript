@@ -20,6 +20,12 @@
         "cerise",
     ];
 
-    // your code here
+    var btn = document.getElementById("run");
+    btn.addEventListener("click", () => {
+
+        var uniqArr = [...new Set(fruits)];
+        
+        console.log(uniqArr)
+    })
 
 })();
