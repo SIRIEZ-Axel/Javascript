@@ -14,5 +14,16 @@
         "Lucas",
     ]);
 
-    // your code here
-})();
+    var btn = document.getElementById("run")
+    btn.addEventListener("click", () => {
+
+        console.log("There is " + people.size + " people in the set")
+        
+        if (people.has("Alexandre")){
+            console.log("Alexandre is present")
+        }else{
+            console.log("Alexandre is absent")
+        }
+    })
+        
+    })();
