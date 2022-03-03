@@ -2,5 +2,21 @@
 
 
 (() => {
-    // your code here
+    var btn = document.getElementById("run")
+    btn.addEventListener("click", () => {
+
+        class person {
+            constructor(firstname, lastname) {
+                this.firstname = firstname;
+                this.lastname = lastname;
+            }
+            
+            sayHello() {
+                console.log(" Hello, " + this.firstname + this.lastname);
+            }
+        }
+        
+        new person("Axel ", "Siriez").sayHello();
+    })
+      
 })();
