@@ -3,6 +3,14 @@
 
 (() => {
 
-    // your code here
+    let src = document.querySelector("#source")
 
+    let trg = document.querySelector("#target")
+
+    img = document.createElement("img")
+
+    img.src = src.getAttribute('data-image');
+
+    trg.appendChild(img)
+    
 })();
