@@ -2,5 +2,16 @@
 
 
 (() => {
-    // your code here
+
+    var btn = document.getElementById("run");
+    btn.addEventListener("click", () => {
+            window.lib.getPosts( function(error, table) {
+                if (error){
+                    console.log(error)
+                } else{
+                    console.log(table)
+                }
+            })
+    })
+
 })();
